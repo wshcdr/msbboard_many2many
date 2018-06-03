@@ -1,0 +1,17 @@
+[ 2018-04-22T17:37:30+08:00 ] ::1 /thinkphp-inaction/message-board1/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `mb_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `mb_user`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mb_group` [ RunTime:0.0180s ]
+NOTIC: [8] Undefined index: mapping_order C:\System\phpstudy\WWW\thinkphp-inaction\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit C:\System\phpstudy\WWW\thinkphp-inaction\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM mb_user_group AS a, mb_group AS b WHERE a.gid = b.groupid AND a. uid='1' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: mapping_order C:\System\phpstudy\WWW\thinkphp-inaction\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 186 行.
+NOTIC: [8] Undefined index: mapping_limit C:\System\phpstudy\WWW\thinkphp-inaction\ThinkPHP\Library\Think\Model\RelationModel.class.php 第 187 行.
+SQL: SELECT b.* FROM mb_user_group AS a, mb_group AS b WHERE a.gid = b.groupid AND a. uid='2' [ RunTime:0.0010s ]
+
